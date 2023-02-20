@@ -56,10 +56,10 @@ body{
   position: absolute;
   height: 150px;
   width: 150px;
+  background-color: white;
   border-radius: 50%;
   translate: -50% -50%;
   z-index: -100;
-  backdrop-filter:blur(10px);
 }
 
 #reveal-text{
