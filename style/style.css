@@ -1,0 +1,73 @@
+*{
+  z-index: 3;
+}
+
+body{
+  /* font-family: "Mynerve", cursive; */
+  /* font-family: "Righteous", cursive; */
+  font-family: 'Phudu', cursive;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.navbar * {
+  font-size: 30px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: rgb(188, 188, 188);
+}
+
+.active-link{
+  color:rgb(161, 171, 192);
+}
+
+.active-link:hover{
+  color:rgb(123, 129, 141);
+}
+
+.navbar-nav * {
+  margin-right: 25px;
+}
+
+.title{
+  margin-left: 15vw;
+}
+
+.title-text{
+  font-size: 100px;
+}
+
+.reveal-blur{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backdrop-filter: blur(30px);
+}
+
+#revealer{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  translate: -50% -50%;
+  z-index: 1;
+}
+
+#reveal-text{
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  z-index: 2;
+}
+
+.footer{
+  margin-top: -50px;
+}
