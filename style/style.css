@@ -1,12 +1,13 @@
 *{
   z-index: 3;
+  --bg-color: rgb(55, 55, 55);
 }
 
 body{
   /* font-family: "Mynerve", cursive; */
   /* font-family: "Righteous", cursive; */
   font-family: 'Phudu', cursive;
-  background-color: rgb(55, 55, 55);
+  background-color: var(--bg-color);
   color: white;
   height: 100vh;
   min-height: 100%;
@@ -53,19 +54,51 @@ body{
 
 #revealer{
   position: absolute;
-  height: 100px;
-  width: 100px;
-  background-color: white;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   translate: -50% -50%;
-  z-index: 1;
+  z-index: -100;
+  backdrop-filter:blur(10px);
 }
 
 #reveal-text{
   position: absolute;
-  /* top: 0;
-  left: 0; */
+  margin-left: 18vw;
   z-index: 2;
+  width: 500px;
+}
+
+#top-background{
+  z-index: -3;
+  margin-top: -150px;
+  height: 160px;
+  width: 5000px;
+  background-color: var(--bg-color);
+}
+
+#left-background{
+  z-index: -3;
+  height: 160px;
+  width: 18vw;
+  background-color: var(--bg-color);
+}
+
+#right-background{
+  z-index: -3;
+  height: 160px;
+  margin-top: -170px;
+  margin-left: 750px;
+  width: 60vw;
+  background-color: var(--bg-color);
+}
+
+#bottom-background{
+  z-index: -3;
+  margin-top: -50px;
+  height: 5000px;
+  width: 5000px;
+  background-color: var(--bg-color);
 }
 
 .footer{
