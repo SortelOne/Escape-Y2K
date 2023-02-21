@@ -1,6 +1,6 @@
 const letters="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-document.querySelector('h1').onmouseover = event => {
+document.getElementById('hacker-text').onmouseover = event => {
   let iteration = 0;
   let word = event.target.innerText;
   
@@ -20,4 +20,8 @@ document.querySelector('h1').onmouseover = event => {
     
     iteration += 1;
   }, 30); 
+}
+
+function randomRange(min, max){
+  return Math.random() * (max - min) + min;
 }
