@@ -7,7 +7,7 @@ body{
   /* font-family: "Mynerve", cursive; */
   /* font-family: "Righteous", cursive; */
   font-family: 'Phudu', cursive;
-  background-color: var(--bg-color);
+  background-color: rgb(70, 70, 70);
   color: white;
   height: 100vh;
   min-height: 100%;
@@ -45,11 +45,21 @@ body{
   font-size: 100px;
 }
 
-.reveal-blur{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  backdrop-filter: blur(30px);
+#logs > div{
+  margin-top: 20px;
+  transition: scale 500ms;
+}
+
+#logs > div:hover{
+  scale: 1.01;
+}
+
+#logs *{
+  color: black;
+}
+
+p.log-text{
+  margin-left: 20px;
 }
 
 #revealer{
@@ -66,7 +76,7 @@ body{
   position: absolute;
   margin-left: 18vw;
   z-index: 2;
-  width: 500px;
+  width: 5000px;
 }
 
 #top-background{
@@ -88,7 +98,7 @@ body{
   z-index: -3;
   height: 160px;
   margin-top: -170px;
-  margin-left: 750px;
+  margin-left: 900px;
   width: 60vw;
   background-color: var(--bg-color);
 }
