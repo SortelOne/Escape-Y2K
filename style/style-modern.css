@@ -98,14 +98,14 @@ p.log-text{
   z-index: -3;
   height: 160px;
   margin-top: -170px;
-  margin-left: 750px;
+  margin-left: 900px;
   background-color: var(--bg-color);
 }
 
 #bottom-background{
   z-index: -3;
   margin-top: -50px;
-  height: 50vh;
+  height: 80vh;
   width: 100vw;
   background-color: var(--bg-color);
 }
@@ -118,6 +118,7 @@ p.log-text{
 div.about{
   text-indent: 20px;
   width: 100%;
+  margin: 15px;
 }
 
 img.profile-pic{
