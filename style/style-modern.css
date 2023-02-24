@@ -45,6 +45,10 @@ body{
   font-size: 100px;
 }
 
+p.about-project-text{
+  text-indent: 70px;
+}
+
 #logs > div{
   margin-top: 20px;
   transition: scale 500ms;
@@ -59,7 +63,7 @@ body{
 }
 
 p.log-text{
-  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #revealer{
@@ -124,6 +128,16 @@ div.about{
 img.profile-pic{
   width: 250px;
   height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+img.pic{
+  width: 300px;
+  height: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
