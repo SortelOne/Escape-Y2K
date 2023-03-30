@@ -49,6 +49,15 @@ p.about-project-text{
   text-indent: 70px;
 }
 
+a.github-link{
+  color: white;
+  text-decoration: none;
+}
+
+a.github-link:hover(){
+  color: rgb(189, 189, 189);
+}
+
 #logs > div{
   margin-top: 20px;
   transition: scale 500ms;
